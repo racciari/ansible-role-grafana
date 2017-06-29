@@ -8,7 +8,7 @@
 #    var: 'value'
 
   roles:
-    - { role: grafana }
+    - { role: grafana, grafana_secret_key: 'azertyuiop' }
 
   pre_tasks:
     - name: "Processing playbook on following servers"
